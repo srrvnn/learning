@@ -1,4 +1,4 @@
 structures
 ===============
 
-this is half the code, for any problem.
+if you have got the right sructures, you have more than half the solution.

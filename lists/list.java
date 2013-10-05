@@ -1,9 +1,12 @@
 /*
 
+Use Linked List when 
+
+1) the number of items are intially unknown. 
+2) insertaions and deletions from the middle of a list are common.
+
 The best way to implement a linked list in Java is this way: 
 LinkedList list_objects = new java.util.LinkedList();
-
-The following code is for learning purposes only. 
 
 */
 
@@ -18,17 +21,19 @@ public class List {
 		private Node next; 
 		private Node prev;
 
+		public Node(){
+
+			this.data = null;			
+			this.next = null;
+			this.prev = null;
+		}
+
 		public Node(Object data, Node next, Node prev){
 
 			this.data = data;
 			this.next = next; 
 			this.prev = prev;
 		}
-
-		public Object data(){
-
-			return data; 
-		}		
 
 		public Object next(){
 
@@ -39,6 +44,11 @@ public class List {
 
 			return this.prev;
 		}
+
+		public Object get(){
+
+			return data; 
+		}		
 
 		public void set(Object data){
 
@@ -53,12 +63,24 @@ public class List {
 
 	private int size; 
 
+	List() {
+
+		head = null;
+		tail = null;
+		size = 0;
+
+	}
+
 	// data functions - add, remove, contains, data, set, isEmpty, size. 
 
 	public boolean add(){
 
 
 	}
+
+
+
+	// removing from a linked list in O(N)
 
 	public boolean remove(Object data){
 
@@ -105,6 +127,8 @@ public class List {
 		return true;		
 	}
 
+
+
 	public boolean contains(Object data){
 
 		Node iterator = this.head; 
@@ -132,6 +156,43 @@ public class List {
 
 	// detect loop in a linked lists 
 
-	public boolean isLooping()
+	public boolean isLooping(){
+
+		if(isEmpty())
+			return false;
+
+		Node tortoise = this.head;
+		Node hare = this.head; 
+
+		while(hare != null){
+
+			tortoise = tortoise.next();
+			hare = hare.next();
+
+			if(hare == null) break;
+			else hare = hare.next();
+
+			if(tortoise == hare){
+
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	// reverse the linked list
+
+	public boolean reverse(){
+
+	}
+
+	public boolean addCyclic(Node n){
+
+		if(isEmpty()){
+
+
+		}
+	}
 
 }
