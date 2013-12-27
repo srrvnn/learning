@@ -75,6 +75,8 @@ public class List {
 
 	public boolean add(){
 
+		
+
 
 	}
 
