@@ -77,6 +77,10 @@ public class Mergesort {
 
 	public static void Sort() {
 
+		// check for an empty array 
+
+		if(numbers.length == 0 || numbers.)
+
 		// create the helper array that is used while merging. 
 
 		helper = new int[numbers.length]; 
