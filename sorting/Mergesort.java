@@ -1,7 +1,9 @@
 // http://www.vogella.com/articles/JavaAlgorithmsMergesort/article.html
+// http://www.sorting-algorithms.com/merge-sort
 
 /************************************************************/ 
 
+// O(n log n) time - O(n) space (arrays) - O(n log n) space (linked lists) - stable
 
 import java.io.FileReader;
 import java.io.BufferedReader;
