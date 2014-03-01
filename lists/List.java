@@ -1,6 +1,6 @@
 /*
 
-Use Linked List when 
+Use a Linked List when 
 
 1) the number of items are intially unknown. 
 2) insertaions and deletions from the middle of a list are common.
@@ -73,16 +73,14 @@ public class List {
 
 	// data functions - add, remove, contains, data, set, isEmpty, size. 
 
-	public boolean add(){
+	// adding to a linked list in O(1)
 
-		
+	public boolean add(){	
 
 
 	}
 
-
-
-	// removing from a linked list in O(N)
+	// removing from a linked list in O(n)
 
 	public boolean remove(Object data){
 
@@ -129,7 +127,7 @@ public class List {
 		return true;		
 	}
 
-
+	// searching in a linked list in O(n)
 
 	public boolean contains(Object data){
 
@@ -183,7 +181,7 @@ public class List {
 		return false;
 	}
 
-	// reverse the linked list
+	// reverse the linked list using the 
 
 	public boolean reverse(){
 

@@ -1,4 +1,4 @@
-// http://www.vogella.com/articles/JavaAlgorithmsMergesort/article.html
+http://www.vogella.com/articles/JavaAlgorithmsMergesort/article.html
 // http://www.sorting-algorithms.com/merge-sort
 
 /************************************************************/ 
@@ -79,7 +79,7 @@ public class Mergesort {
 
 		// check for an empty array 
 
-		if(numbers.length == 0 || numbers.)
+		// if(numbers.length == 0 || numbers.)
 
 		// create the helper array that is used while merging. 
 
