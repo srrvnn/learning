@@ -1,4 +1,4 @@
-structures
+code
 ===============
 
-if you have got the right sructures, you have more than half the solution.
+here is where I get my hands wet, and type in with both hands. 
