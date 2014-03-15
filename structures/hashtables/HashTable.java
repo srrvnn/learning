@@ -2,7 +2,8 @@
 
 Use a HashMap when: 
 
-1) 
+1) O(1) lookup is necessary 
+2) 
 
 The best way to implement a hash table in Java is: 
 HashMap<Object, Object> hashmap_objects = new HashMap<Object, Object>();
@@ -34,4 +35,10 @@ for (Iterator i = hashmap_objects.entrySet().iterator(); i.hasNext();) {
 public class HashTable {
 
 
+}
+
+
+for (Map.Entry<Object, Object> entry : hashmap_objects.entrySet()) {
+
+	
 }
