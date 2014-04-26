@@ -1,4 +1,8 @@
+// global jasmine function describe - test suite
+
 describe("Test Suite for HelloWorld", function() {
+
+	// global jasmine function it - test spec
 
 	it("Test Spec for HelloWorld", function() {
 
