@@ -21,7 +21,3 @@ xhr.onreadystatechange = function() {
 }
 
 xhr.send();
-
-// using jQuery
-
-$.getJSON(target_url, doSomething(data));
