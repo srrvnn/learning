@@ -1,12 +1,23 @@
-// using regular expressions or regex 
+// Mozilla Developer Network's Extensive Writeup
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
-var regex = /^\d{2}$/;
-var string = "29";
+// two ways to initiate a regular expression
 
-regex.test(string);
-regex.exec(string);
+var re = /^\d{2}$/; // regular expression literal : use this when the regex is going to be constant
+var re = new RegExp("ab + c"); // regular expression object : use this when the regex is coming from another source
 
-string.search(regex);
-string.replace(regex,"");
-string.split(regex);
-string.match(regex);
+// two functions of Regex object
+
+regex.test(string); // returns true of false
+
+regex.exec(string); // returns an array of information or null
+
+// four functions of String object
+
+string.search(regex); // returns the index of the match or -1
+
+string.match(regex); // returns an array of information or null
+
+string.replace(regex,""); // does a search and replaces the result
+
+string.split(regex); // used to break a string into substrings - returns an array
