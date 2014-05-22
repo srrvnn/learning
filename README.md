@@ -1,4 +1,4 @@
-code
+learning
 ===============
 
-here is where I get my hands wet, and type in with both hands. 
+here is where I get my hands wet.
