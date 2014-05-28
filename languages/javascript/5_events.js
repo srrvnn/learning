@@ -10,7 +10,7 @@ document.getElementById('pink').onclick = function () {
 }
 
 // using addEventListener
-// pro: events can be triggered by non-dom elements
+// pro: events can be triggered by non-dom elements, custom objects for instance
 // pro: multiple events in a single call 
 // con: not supported by IE8 and older. must use attachEvent()
 
@@ -51,4 +51,22 @@ e.stopPropogation();
 
 e.preventDefault();
 
+// binding and triggering custom events 
 
+// using JavaScript
+
+var event = new Event('customEvent');
+
+el.addEventListener('customEvent', function () {
+	console.log('Build Event called on el');
+});
+
+el.dispatchEvent(event);
+
+// using jQuery
+
+el.on('customEvent', function () {
+	console.log('customEvent called on el');
+});
+
+el.trigger('customEvent');
