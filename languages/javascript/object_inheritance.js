@@ -1,0 +1,1 @@
+// how to create multiple instances of an object that inherits from another object

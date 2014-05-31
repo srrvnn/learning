@@ -3,7 +3,7 @@ goto: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_
 
 // creating an array
 
-var myArray = []; 
+var myArray = [];
 var myArray = new Array();
 
 // populating an array
@@ -25,16 +25,16 @@ function passByValue(valArray) {};
 
 // length of an array
 
-myArray.length; 
+myArray.length;
 
 /*
 
-arr.length is a property, not a function. 
-arr.length stores the 1 + the hightest index 
+arr.length is a property, not a function.
+arr.length stores the 1 + the hightest index
 
 */
 
-// methods 
+// methods
 
 var arr = arr1.concat(arr2, arr3);
 
