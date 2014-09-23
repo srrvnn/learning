@@ -72,4 +72,8 @@ $.getJSON('data.json', function (data){
 	});
 });
 
+$.post('data.json', function (data) {
+    console.log(data + 'received');
+})
+
 var readmore = 'http://api.jquery.com/category/ajax/';

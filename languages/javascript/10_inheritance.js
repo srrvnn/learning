@@ -1,4 +1,4 @@
-// best practice is use a library
+// best practice : use a library
 
 var libraries = {
 
@@ -12,7 +12,7 @@ var libraries = {
 
 // but why should they have all the fun?
 
-var posts = [
+var reading = [
 
 	{	url : "https://alexsexton.com/blog/2013/04/understanding-javascript-inheritance/",
 		comments: "absolutely useless"  },
