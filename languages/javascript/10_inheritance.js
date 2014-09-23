@@ -6,6 +6,10 @@ var libraries = {
 	"klass" : "https://github.com/ded/klass"
 };
 
+// using selfish.js
+
+
+
 // but why should they have all the fun?
 
 var posts = [

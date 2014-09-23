@@ -70,6 +70,13 @@ function function2(a, b) {
 	// returns  1 if a > b
 }
 
+/*
+
+Array.Prototype.slice() returns a shallow copy of a portion of an array object
+into a new array object
+
+*/
+
 arr1.slice();
 arr1.slice(3, 5);
 
